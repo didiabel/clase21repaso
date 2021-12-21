@@ -1,0 +1,13 @@
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.info{
+    width:min-content;
+    background-color: coral;
+    border: 1px solid blue;
+    text-align: center;
+}
