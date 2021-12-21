@@ -26,7 +26,7 @@ mostrarPersonajes(){
 };
 }
 
-const mostrarTarjetas =(personajes) => personajes.map(personaje => personaje.mostrarPersonajes());
+const mostrarTarjetas =(personajes) => personajes.forEach(personaje => {personaje.mostrarPersonajes()});
 
 const rickmorty = async() =>{
     const response = await fetch("https://rickandmortyapi.com/api/character/1,2,3,4,5,6,7,8,9");
